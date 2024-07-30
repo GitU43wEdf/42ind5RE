@@ -1,0 +1,24 @@
+/*-----Banner Slider Starts-----*/
+
+.sportsBanner img{
+  width: 100%;
+}
+
+.sportsBannerCont .swiper-pagination-bullets{
+  width: auto;
+  left: auto;
+  right: 7%;
+}
+
+.sportsBannerCont .swiper-pagination-bullet{
+  background: #fff;
+  opacity: 1;
+  width: 12px;
+  height: 12px;
+}
+
+.sportsBannerCont .swiper-pagination-bullet.swiper-pagination-bullet-active{
+  background: #ff9c1d;
+}
+
+/*-----Banner Slider Ends-----*/

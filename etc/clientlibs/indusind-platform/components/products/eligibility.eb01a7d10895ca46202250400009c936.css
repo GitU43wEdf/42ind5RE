@@ -1,0 +1,112 @@
+.richtext-eligibility h5{
+  margin-bottom: 1.25rem;
+}
+.richtext-eligibility ul {
+ padding: 0;
+ margin: 0;
+}
+.richtext-eligibility ul li {
+ position: relative;
+ padding-left: 18px;
+ line-height: 1.5;
+ margin-bottom: 10px;
+ list-style: none;
+}
+.richtext-eligibility ul li:before {
+ position: absolute;
+ left: 0;
+ top: 3px;
+ content: "";
+ display: block;
+ width: 6px;
+ height: 12px;
+ border: solid #832625;
+ border-width: 0 2px 2px 0;
+ transform: rotate(45deg);
+}
+.richtext-eligibility ul ul{
+ padding-left: .35rem;
+}
+.richtext-eligibility ul ul li {
+ position: relative;
+ padding-left: 15px;
+ line-height: 1.5;
+ margin-bottom: 10px;
+}
+.richtext-eligibility ul ul li:before {
+ position: absolute;
+ left: 0;
+ top: 7px;
+ content: "";
+ display: block;
+ width: 6px;
+ height: 6px;
+ border-radius: 50%;
+ border: none !important;
+ background-color: #c6c6c6;
+}
+
+
+.subtabs_eligibility{
+  border-bottom: solid 1px #ccc;
+  padding: 0px;
+  margin-top: -1px;
+}
+.subtabs_eligibility .nav-tabs{
+  background: #fff;
+  
+}
+.subtabs_eligibility .nav-tabs .nav-item{
+ position: relative;
+ padding-right: 0;
+ margin-right: 25px
+}
+.subtabs_eligibility .nav-tabs .nav-item:last-child{
+ margin: 0;
+ padding: 0;
+}
+.subtabs_eligibility .nav-tabs .nav-item:after{
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    margin-top: -5px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #000;
+    content: "";
+}
+.subtabs_eligibility .nav-tabs .nav-item:last-child:after{
+ display: none;
+}
+.subtabs_eligibility .nav-tabs .nav-link{
+  background-color: #fff!important;
+    color: #2b2926!important;
+  padding: 12px 0;
+}
+.subtabs_eligibility .nav-tabs .nav-link:before{
+position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: #f29d39;
+    content: "";
+    width: 0;
+    transition: all 0.3s;
+}
+.subtabs_eligibility .nav-tabs .nav-link.active:before{
+ width: 100%;
+}
+.subtabs_eligibility .nav-tabs .nav-link.active:after{
+ display: none;
+}
+.subtabs_eligibility .nav-tabs .nav-link.active{
+ color: #832625!important;
+ font-weight: bold;
+}
+.subtabs_eligibility ul li{
+  border: none!important;
+}
+.horizontal-tabs-container.scrollingtabs.subtabs_eligibility:after{
+  display: none;
+}

@@ -1,0 +1,67 @@
+.tabs-secondary{
+  border-bottom: solid 1px #ccc;
+  padding: 0px;
+  margin-top: -1px;
+}
+.tabs-secondary .nav-tabs{
+  background: #fff;
+  
+}
+.tabs-secondary .nav-tabs .nav-item{
+ position: relative;
+ padding-right: 25px;
+ margin-right: 25px
+}
+.tabs-secondary .nav-tabs .nav-item:last-child{
+ margin: 0;
+ padding: 0;
+}
+.tabs-secondary .nav-tabs .nav-item:after{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #000;
+    content: "";
+}
+.tabs-secondary .nav-tabs .nav-item:last-child:after{
+ display: none;
+}
+.tabs-secondary .nav-tabs .nav-link{
+  background-color: #fff!important;
+  padding: 12px 0;
+}
+.tabs-secondary .nav-tabs .nav-link:before{
+position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: #f29d39;
+    content: "";
+    width: 0;
+    transition: all 0.3s;
+}
+.tabs-secondary .nav-tabs .nav-link.active:before{
+ width: 100%;
+}
+.tabs-secondary .nav-tabs .nav-link.active:after{
+ display: none;
+}
+.tabs-secondary .nav-tabs .nav-link.active{
+ color: #832625!important;
+ font-weight: bold;
+}
+.tabs-secondary ul li{
+  border: none!important;
+}
+.horizontal-tabs-container.scrollingtabs.tabs-secondary:after{
+  display: none;
+}
+
+@media (max-width: 767px){
+.tabs-secondary .nav-tabs .nav-item{padding-right: 0; margin-right: 0;}
+.tabs-secondary .nav-tabs .nav-item:after{ right: -13px;}
+.tabs-secondary .nav-tabs .nav-item:first-child .nav-link{margin-right: 0!important}
+}

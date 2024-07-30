@@ -1,0 +1,591 @@
+* { margin: 0; padding: 0; }
+ul { list-style: none; }
+:focus { outline: 0; }/* remember to highlight inserts somehow! */
+table { border-collapse: collapse; border-spacing: 0; }
+img, img a { border: 0; outline: 0; }
+a { color:#000; text-decoration:none; }
+a:hover { color:#000; text-decoration: underline; }
+.clear { clear:both; float:left; width:100%;}
+.clearFix{ clear:both; height:0;}
+textarea { resize: none; }
+body { margin:0 auto; padding: 0px; font-size:62.5%; font-weight:normal; font-family:Arial, Helvetica, sans-serif; }
+ @font-face {
+ font-family: 'titilliumtext22l600_wt';
+ src: url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/titilliumtext22l004_1-webfont.eot');
+ src: url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/titilliumtext22l004_1-webfont.eot?#iefix') format('embedded-opentype'), url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/titilliumtext22l004_1-webfont.woff') format('woff'), url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/titilliumtext22l004_1-webfont.ttf') format('truetype'), url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/titilliumtext22l004_1-webfont.svg#titilliumtext22l600_wt') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+ font-family: 'titilliumtext22l250_wt';
+ src: url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/titilliumtext22l002_1-webfont.eot');
+ src: url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/titilliumtext22l002_1-webfont.eot?#iefix') format('embedded-opentype'), url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/titilliumtext22l002_1-webfont.woff') format('woff'), url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/titilliumtext22l002_1-webfont.ttf') format('truetype'), url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/titilliumtext22l002_1-webfont.svg#titilliumtext22l250_wt') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+ font-family: 'roboto_condensedregular';
+ src: url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/robotocondensed-regular-webfont.eot');
+ src: url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/robotocondensed-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/robotocondensed-regular-webfont.woff') format('woff'), url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/robotocondensed-regular-webfont.ttf') format('truetype'), url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/robotocondensed-regular-webfont.svg#roboto_condensedregular') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+ font-family: 'roboto_condenseditalic';
+ src: url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/robotocondensed-italic-webfont.eot');
+ src: url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/robotocondensed-italic-webfont.eot?#iefix') format('embedded-opentype'), url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/robotocondensed-italic-webfont.woff') format('woff'), url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/robotocondensed-italic-webfont.ttf') format('truetype'), url('/etc/clientlibs/indusind-platform/globalCsr/resources/csr/fonts/robotocondensed-italic-webfont.svg#roboto_condenseditalic') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+#wrapper { width:100%; }
+.bannerWrapper .pagination .prev, .bannerWrapper .pagination .next, .bannerWrapper .pagination li, .structureList > li ul li{ background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/sprite.png) no-repeat 0 0; }
+.pR10 { padding-right:5px; }
+.pT5 { padding-top:5px; }
+.pT10{ padding-top:10px;}
+.pT15{ padding-top:15px;}
+.height40 { height:40px; }
+/* start slider */
+.bannerWrapper { width:100%; margin:0 auto }
+.bannerContainer { width:100%; height:532px; overflow:hidden; }
+.bannerContainer ul { width:10000px; }
+.bannerContainer li { float:left; height:532px; }
+.bannerContainer li.banner1 { background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/indusind-csr-bank-banner-2.jpg) no-repeat center 0 }
+
+
+
+
+/*.bannerContainer li.banner1 { background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/indusind-bank-banner-1.jpg) no-repeat center 0 }*/
+.bannerContainer li .bannerText { width:1025px; margin:0 auto; color:#fff; padding-top:158px; }
+.bannerContainer li .bannerText p { font-family: 'titilliumtext22l600_wt'; text-transform:uppercase; font-size:4.3em; padding-left:6px; }
+.bannerContainer li .bannerText p.fontChange { font-family: 'titilliumtext22l250_wt'; padding-left:49px; font-size:4.2em; padding-bottom:15px; line-height:45px; }
+.bannerContainer li .bannerText a { font-family: 'titilliumtext22l600_wt'; font-size:1.5em; margin-left:425px; border:1px solid #fff; padding:0px 8px; color:#fff; opacity:0.6; background:#3a3a3a; float:left; filter:alpha(opacity=60) }
+.bannerContainer li .bannerText a:hover { text-decoration:none; }
+.paginationWrapper { position:absolute; top:372px; z-index:2; width:100%; text-align:center; }
+.bannerWrapper .pagination { margin:0 auto; }
+.bannerWrapper .pagination ul { float:left; }
+.bannerWrapper .pagination .prev, .bannerWrapper .pagination .next, .bannerWrapper .pagination li { width:16px; height:16px; margin-right:5px; background-position:0 -2px; cursor:pointer; float:left }
+.bannerWrapper .pagination .next { background-position:-65px -2px }
+.bannerWrapper .pagination li { background-position:-41px -1px }
+.bannerWrapper .pagination li.active { background-position:-19px -1px;}
+.csr {padding-left:20px;}
+.csr1 {padding-left:20px;}
+.csr li {padding: 5px;}
+.csr1 li {padding: 5px;list-style-type: circle;}
+
+
+/* end slider */
+
+
+/* start top Nav */
+.header { position:absolute; width:100%; top:0; }
+.topContainer { width:1025px; margin:0 auto; }
+.topNav { background-color: #bc3f3d; float: left; width: 783px; }
+.header .logo { float: left; }
+.topNav ul.navLink { height: 16px; padding: 22px 0 21px 52px; }
+.topNav ul { float: left; width:730px; }
+.topNav ul.navLink li { padding: 0 28px 0 0; position: relative; }
+.topNav ul li { float: left; }
+.topNav ul.navLink li{ font-weight:bold;color: #ffffff; font-size: 1.2em;}
+.topNav ul.navLink li a { color: #ffffff; font-weight:normal;}
+
+/* end top Nav */
+
+/* start middleWrapper */
+.middleWrapper, .videoWrapper { width:100%; }
+.int-middleWrapper, .int-videoWrapper { width:1025px; margin:0 auto }
+.homePageBlock { margin-top:-138px; }
+.homePageBlock2 {/*background: #dcdcdc;padding: 10px 19px;*/position: relative;margin-top: -1px; float:left; clear:both; width:100%;}
+.latestNews1{width: 46%;padding: 10px 19px;float: left;border-right: 1px dotted #777;background: #dcdcdc;height: 65px;}
+.latestNews2 {width: 46%;padding: 10px 19px;float: left;background: #dcdcdc;height: 65px;}
+.homePageBlock2 p.text {color: #505050;font-size: 1.2em;line-height: 18px;padding: 5px 0;}
+
+.block { width:318px; float:left; margin-right:33px; }
+.block.last { margin-right:0; }
+.content span { color:#bc3f3d;}
+.content span.n-size { color:#bc3f3d;display:block;font-size: 1.2em;font-family: Arial, Helvetica, sans-serif; text-align: justify;}
+.content p { padding-top:10px; padding-bottom:10px;}
+.content a { color:#bc3f3d}
+.contentBox { width:280px; height:200px; background:#dcdcdc; padding:10px 19px; position:relative; margin-top:-1px; }
+.contentBox h2 { text-align:center; color:#bc3f3d; font-size:2em; line-height:30px; font-family: 'roboto_condensedregular'; font-weight:normal; }
+.contentBox p.text { color:#505050; font-size:1.2em; line-height:18px; padding:5px 0; }
+.contentBox .know-more, .int-videoWrapper .know-more, .projectGallery { color:#bc3f3d; font-size:1.1em; float:right; font-weight:bold; background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/know-more.png) no-repeat right 5px; padding-right:8px; margin-right:10px; }
+.homePageBlock2 .know-more { color:#bc3f3d; font-size:1.1em; /*float:right; */font-weight:bold; background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/know-more.png) no-repeat right 5px; padding-right:8px; margin-right:10px; }
+.contentBox .greyLine { clear:both; width:318px; height:1px; border-bottom:1px solid #c9c9c9; margin-left:-19px; padding:5px 0; }
+.imgIntBlock { float:left; padding-top:5px; text-align:center; width:133px; }
+.imgIntBlock.pR10 { width:140px; }
+.imgIntBlock h3 { font-size:1.1em; color:#353535; padding:6px 0; }
+.projectGallery { padding-top:7px; background-position:right 13px }
+.contentBox-arrow { background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/contentBox-arrow.png) no-repeat center 0; width:24px; height:12px; margin:0 auto; }
+.videoWrapper { background:#2d2d2d; padding:15px 0 25px 0; float:left;}
+.videoWrapper h2 { color:#ffffff; font-size:2.1em; padding-bottom:10px; font-family: 'roboto_condensedregular'; font-weight:normal; }
+.videoWrapper li { width:318px; float:left; margin-right:33px; cursor:pointer; }
+.videoWrapper li img { float:left; }
+.videoWrapper li.content { background:#dcdcdc; height:128px; padding:15px 14px; width:290px; margin-right:0; cursor:default; }
+.videoWrapper li.content h3 { color:#bc3f3d; font-size:2.2em; padding-bottom:8px; font-family: 'roboto_condensedregular'; font-weight:normal; }
+.videoWrapper li.content p { color:#3c3c3c; font-size:1.2em; line-height:18px; float:left; width:200px; padding-left:15px; padding-top:0px; }
+.videoWrapper li.content img { padding-top:15px; }
+/* end middleWrapper */
+
+/* start primaryFooter */
+.primaryFooter { background-color: #BC3F3D; clear: both; margin: 0 auto 64px; padding:5px 10px 0; width:1005px; font-family: 'roboto_condensedregular';clear: both;height: 35px;}
+.primaryFooter ul { float: left; width: 100%; padding:3px 0; }
+.primaryFooter ul li { background: url("/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/wht-sep.jpg") no-repeat scroll right 6px transparent; float: left; padding: 0 6px; }
+.primaryFooter ul li.first { border-right:1px solid #dea2a1; }
+.primaryFooter ul li a, .primaryFooter ul li label { color: #EBC6C5; font-size: 1.3em; text-transform:uppercase; line-height:13px; }
+ .primaryFooter ul li label { float:left;}
+
+.primaryFooter .copyright { color: #EBC6C5; float: left; font-size: 1.1em; float:right; font-family: 'roboto_condensedregular'; text-transform:uppercase; }
+/* end primaryFooter */
+
+/* start secondFooterWrapper */
+.secondFooterWrapper { background: url("/content/dam/indusind-csr/desktop/csr/images/footer-bg.jpg") repeat scroll left top transparent; bottom:0; left: 0; position:fixed; width: 100%; z-index: 10; font-family: 'roboto_condensedregular'; height:65px;}
+.secondFooter { margin: 0 ; padding: 12px 10px 0 10px; width: 780px; height:55px; position:relative;}
+.socialIcon { float: right; padding: 11px 0 0; }
+.secondFooter ul li { cursor: pointer; float: left; padding: 0 7px; position: relative; }
+.secondFooter ul li a { color: #FFFFFF; font-size: 1.4em; }
+.leftContent { float:left; }
+.leftContent p { float:left; padding:1px 40px 2px 13px; color:#fff; font-size:1.3em; white-space:nowrap }
+.impLinks { width:945px; margin:0 auto; padding:22px 0 0 0; margin-bottom:-1px; clear:both; }
+/* end secondFooterWrapper */
+
+/* start videoBoxWrapper */
+
+.videoBoxWrapper, .imgBoxWrapper{ background-color: #262626; border-radius: 5px 5px 5px 5px; display: none; left: 0; padding: 10px; position: fixed; top: 0; width: 540px; z-index: 11; }
+.imgBoxWrapper{ width:750px;}
+.videoBoxWrapper .videoBox , .imgBoxWrapper .videoBox{ background-color: #FFFFFF; border-radius: 5px 5px 5px 5px; padding: 10px; width: 520px;}
+
+.videoBoxWrapper .videoBox, .imgBoxWrapper .videoBox { background-color: #FFFFFF; border-radius: 5px 5px 5px 5px; padding: 10px; width: 520px; }
+.imgBoxWrapper .videoBox{ width:750px;}
+.nextVideo, .prevVideo { background: url("/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/icon-set.png") no-repeat scroll 0 0 transparent; cursor: pointer; height: 40px; position: absolute; top: 45%; width: 38px; }
+.nextVideo { background-position: -207px -114px; right: 10px; }
+.prevVideo { background-position: -207px -72px; left: 10px; }
+.videoClose,.imageViewClose { background: url("/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/video-close-btn.png") no-repeat scroll left top transparent; cursor: pointer; height: 28px; position: absolute; right: 20px; top: 20px; width: 29px; z-index: 12; }
+.imageViewClose{ right:-4px;}
+.videoBoxWrapper .videoBox h2, .imgBoxWrapper .videoBox h2 { color: #842625; float: left; line-height: 40px; font-size: 2.8em; font-weight: normal; width:100%;}
+.overlay { background-color: #000000; display: none; height: 100%; left: 0; opacity: 0.7; position:fixed; top: 0; width: 100%; z-index: 10;  filter:alpha(opacity=80);}
+.overlay img{ position:fixed; top:48%; left:48%; }
+.imgBoxWrapper .videoBox h2 { padding-left:24px;}
+/* end videoBoxWrapper */
+
+/* start internal page */
+.left-nav, .mid-right-content { margin-top:28px; float:left; }
+.int-banner, .int-banner-img { width:100%; }
+.int-banner .bannerWrapper { position:absolute; width:100%; }
+.int-banner .bannerText { color: #FFFFFF; margin: 0 auto; padding-top: 115px; width: 1025px; }
+.int-banner .bannerText p { font-family: 'titilliumtext22l600_wt'; font-size: 4.3em; padding-left: 65px; text-transform: uppercase; }
+.int-banner .bannerText p.fontChange { font-family: 'titilliumtext22l250_wt'; font-size: 4.2em; line-height: 45px; padding-bottom: 15px; padding-left: 110px; }
+.int-banner-img img { width:100%; overflow:hidden; /*height:442px;*/ }
+/* start left nav */
+.left-nav { width:258px; margin-right:25px; background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/left-nav-bg.png) repeat-y right 0 #ececec; }
+.left-nav ul { }
+.left-nav li a { border-bottom:1px solid #cfcdcd; color:#6a6a6a; font-family: 'roboto_condensedregular'; font-size:1.6em; padding:12px 0 12px 18px; display:block }
+.left-nav li.active > a { background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/arrow-int-nav.png) no-repeat 240px 20px #bc3f3d; color:#fff; }
+.subManu{ display:none;}
+.left-nav li.active div{ display:block;}
+.left-nav li.active div li a{ padding-left:30px;}
+.left-nav li.active li.active a{ background:#c3c1c1}
+/* end left nav */
+
+/* start mid-right-content */
+.mid-right-content { width:730px; }
+.breadcrum { color:#bc3f3d; font-family: 'roboto_condensedregular'; font-size:1.3em; color:#686868; padding-bottom:10px; }
+.breadcrum span { color:#bc3f3d; padding-left:6px; }
+.breadcrum a { color:#686868; padding:0 6px; }
+.breadcrum a.first { padding-left:0; }
+.mid-right-content .content { color:#565656; font-size:1.29em; line-height:20px; }
+/*.mid-right-content .redBlockText { font-size:1.6em; color:#fff; padding:15px 30px; font-family: 'roboto_condenseditalic'; background:#bc3f3d; width:575px; line-height:27px; margin:12px 0 12px 50px }*/
+.mid-right-content .whiteBlockText { padding: 15px 20px; font-family: "roboto_condenseditalic";line-height: 25px;font-style: italic;margin-bottom: 20px;font-size: 1.3em; }
+.mid-right-content .whiteBlockText .redQutes {color: #BC3F3D;font-size: 1.3em;}
+
+
+.mid-right-content .whiteBlockTextApproach { padding: 15px 20px; font-family: "roboto_condenseditalic";line-height: 25px;font-style: italic;margin-bottom: 20px;font-size: 1.3em; }
+
+.mid-right-content .whiteBlockTextApproach img { float: left;width: 180px;margin-right: 20px;}
+.mid-right-content .whiteBlockTextApproach p {width: 100%;float: left;}
+.mid-right-content .whiteBlockTextApproach .redQutes {color: #BC3F3D;font-size: 1.3em;}
+
+
+.mid-right-content .redBlockText p { text-align:center; }
+.mid-right-content .redBlockText h3 { font-weight:normal; font-family:'Arial'; font-size:1em; text-align:right; padding-top:2px; }
+.mid-right-content .projectText { width:692px; background:#ededed; padding:0 20px; margin-top:20px; }
+.mid-right-content .projectText h2 { font-family: 'roboto_condensedregular'; font-size:1.7em; color:#2c2c2c; padding-bottom:10px; font-weight:normal; }
+.mid-right-content .projectText h3 { font-size:1.1em; color:#353535; font-weight:bold; text-align:center; padding-bottom:5px; }
+.mid-right-content .projectText p { font-size:1.1em; color:#565656; line-height:17px; }
+.mid-right-content .projectText li { width:178px; margin-right:12px; float:left; padding-top:20px; }
+.mid-right-content .projectText li.content { width:280px; margin-right:20px; }
+.mid-right-content .projectText .projectGallery { background: url("/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/know-more.png") no-repeat scroll right 11px transparent; color: #BC3F3D; float: right; font-size: 1.1em; font-weight: bold; padding:5px 12px 20px 0; margin-right:10px; }
+.site-detail-block { background:#2d2d2d; width:100%; padding:23px 0; }
+.int-site-detail-block { width:1025px; margin:0 auto; }
+.int-site-detail-block .redBlock .contentBox { background:#bc3f3d; color:#fff; }
+.redBlock .contentBox p.text, .redBlock .contentBox h2 { color:#fff; }
+.redBlock .contentBox ul { padding-top:12px; }
+.redBlock .contentBox li { padding:4px 15px; background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/arrow-white.png) no-repeat 5px 8px;}
+.int-site-detail-block .block { margin-right:34px; }
+.int-site-detail-block .block.last { margin-right:0; }
+.redBlock .contentBox li a { color:#fff; font-size:1.2em; }
+.offscreen, .copyrightTxt { position:absolute; left:-10000px; top:auto; width:1px; height:1px; overflow:hidden; }
+/* end mid-right-content */
+
+/* start Corporate Social Responsibility */
+.subTitile-1, .subTitile-2{font-family: 'roboto_condensedregular'; color:#2c2c2c; font-size:1.5em; padding-bottom:5px;font-size:1.4em;}
+.subTitile-2{ font-size:2em; float:left;}
+.structureList{ margin-left:20px;}
+.structureList > li{ padding-bottom:10px;}
+.structureList > li ul{ padding:10px 0 5px 0;}
+.structureList > li ul li{background-position:-6px -25px; padding:0 0 2px 15px;}
+.structureList .olStyle{ float:left; font-weight:bold; margin-left:-20px;}
+/* end Corporate Social Responsibility */
+
+
+/* start project*/
+.thumImgScroll{/*background:#e5e5e5; */}
+.thumImgUl img { border:0; /*cursor:pointer;*/}
+.smallOrangArrow { background-repeat:no-repeat; background-position:-157px -7px; width:23px; height:23px; display:block; background-color:#ff9746; float:right; margin:65px 12px 0 0; }
+.sliderSection { width:100%; }
+.thumImgScroll { width:100%; padding:25px 5px 0; height:300px; float:left; position: relative;}
+.thum_pre, .thum_next { width:36px; height:36px;  float:left; cursor:pointer; background:url(/content/dam/indusind-csr/desktop/csr/images/sprite-2.png) no-repeat -4px -85px; margin:114px 5px 0 10px; position: absolute;}
+.thum_next { float:right; background-position:-78px -84px; margin: 114px 10px 0;right: -2em;}
+.thum_pre.disable{ background-position: -1px -45px;}
+.thum_next.disable{background-position:-75px -44px;}
+.thumImgs { width:560px; overflow:hidden; height:300px; float: left; margin:0 0 0 35px; }
+.thumImgUl { width:10000px; }
+.thumImgUl li {    float: left;
+    height: 270px;
+    margin: 0 25px 0 0;
+    padding: 1px 0 1px 1px;
+    width: 270px;}
+.thumImgUl li h4{font-family: 'roboto_condensedregular'; color:#5c5c5c; font-size:1.5em; font-weight:normal; text-align:center; padding-top:5px;}
+/* end project*/
+.discStyle{ list-style:disc; margin-left:30px;}
+.redBlock .contentBox li{ font-size:1.2em; clear:both;}
+.secondFooterWrapper p a{color:#fff;}
+.left{ float:left;}
+.release li{ padding-bottom:10px;}
+.release li p{ font-size:0.9em; color:#222; line-height:16px;}
+.release li div{ float:left; padding-right:10px; height:40px; padding-top:5px;}
+.release li a{ color:#565656;}
+.height150{ height:145px;}
+.height165{ height:165px;}
+.homePageBlock .contentBox{ /*height:310px;*/}
+
+/* start Sitemap Starts */
+.media-mansion li{/*float:left; width:350px; padding-bottom:20px;*/ float: left;width: 350px;padding-bottom: 20px;min-height: 135px;width: 166px;}
+.media-mansion li div.media-content{ padding:0 10px 10px 10px; float:left; width:180px; line-height:18px;}
+.media-mansion li div.left{ border:1px solid #b1b1b1;}
+.media-mansion li div.left img{ cursor:pointer;}
+.imageView{ background-color: #fff; display:none; border-radius: 5px 5px 5px 5px; left: 0; padding: 10px; position:absolute; top: 0; z-index: 11; }
+.imageViewClose{top:-10px; right:-10px;}
+.imgBoxWrapper .videoBox div.img{text-align:center;}
+.imgBoxWrapper .videoBox div.img img{ padding:10px 0 20px 0;}
+
+
+.bannerContainer li.banner2 { background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/indusind-csr-bank-banner-1.jpg) no-repeat center 0 }
+.bannerContainer li.banner3 { background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/indusind-csr-bank-banner-3.jpg) no-repeat center 0 }
+
+/*
+.bannerContainer li.banner2 { background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/indusind-bank-banner-3.jpg) no-repeat center 0 }
+.bannerContainer li.banner3 { background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/indusind-bank-banner-4.jpg) no-repeat center 0 }
+.bannerContainer li.banner4 { background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/indusind-bank-banner-5.jpg) no-repeat center 0 }
+.bannerContainer li.banner5 { background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/indusind-bank-banner-2.jpg) no-repeat center 0 }*/
+/* end Sitemap Starts */
+
+/* Sitemap Starts */
+.SiteMap{ padding-bottom:60px; padding-left:30px; }
+.siteMenuLt{ float:left; width:324px;}
+.siteMenu { padding:26px 0 0 0;}
+.siteMenu h3{color:#bc3f3d; font-size:1.8em; line-height:1.5em;}
+.siteMenu ul li{ background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/siteMenuLiBg.gif) left top no-repeat; padding:10px 0 7px 30px;  }
+.siteMenu ul li a {color:#383535; font-size:1.4em; line-height:1.3em; }
+.siteMenu ul li a:hover{color:#bc3f3d; text-decoration:underline;}
+.siteMenu ul li.Lastmap{background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/sitemapNavLt.gif) left top no-repeat;}
+.siteMenu ul li.colpsLastmap{background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/collapsLast.gif) left -6px no-repeat; cursor:pointer;}
+.siteMenu ul li.colps{ background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/expandCollaps.gif) left top no-repeat; cursor:pointer;}
+.siteMenu ul li.colps.Expandmenu{ background-position:0 -514px;}
+.siteMenu ul li.colpsLastmap.Expandmenu{ background:url(/etc/clientlibs/indusind-platform/globalCsr/resources/csr/images/expandLast.gif) left -6px no-repeat;}
+.siteMenu ul li ul.subSitemap {display:none;}
+.siteMenu ul li ul.subSitemap li a {color:#383535; font-size:1.2em; line-height:1.3em; }
+.siteMenu ul li ul.subSitemap li ul.subSubSitemap{display:none;}
+.siteMenu ul li ul.subSitemap li ul.subSubSitemap li a {color:#383535; font-size:1.2em; line-height:1.3em; }
+.siteMenu ul li ul.subSitemap li ul.subSubSitemap li a:hover , .siteMenu ul li ul.subSitemap li a:hover {color:#bc3f3d; text-decoration:underline;}
+.primaryFooter li:hover a{ text-decoration:underline;}
+/* Sitemap End */
+
+.tnc, .privacy{ font-size:1.2em;}
+.tnc ul, .privacy ul{ margin-left:20px}
+.tnc ul li{ padding:10px 0; list-style:disc outside none;}
+
+.privacy ul li{ padding:5px 0; list-style:disc outside none;}
+
+.reportPdf{ float:left; padding:5px;}
+.reportPdf .left img{ padding-top:0px !important;}
+.reportPdf p{ color:#3C3C3C; font-size:1.3em;}
+
+/* Awards */
+
+.content .awardsH { background: url(/content/dam/indusind-csr/desktop/csr/images/expand-icon.png) 98% 7px no-repeat #EDEDED;float: left;font-size: 1.3em;color: #666;line-height: 35px;margin: 0 0 5px;padding:0 40px 0 10px;cursor: pointer;width: 680px;clear: both;font-weight: bold; border-top: 3px solid #d08281;}
+.content .awardsC {display: none;float: left;margin-bottom: 10px;width: 100%;clear: both;}
+.content .awardsC p {/*font-size: 1.3em;padding:  5px 15px;line-height: 1.4em;*/}
+.content .awardsC p.intro {font-size: 1.3em; }
+.content .awardsC p.intro span {font-size: 0.9em!important;color:#565656!important }
+.content .awardsH.active {background: url(/content/dam/indusind-csr/desktop/csr/images/collapse-icon.png) 98% 7px no-repeat #EDEDED;border-bottom: none; border-top: 3px solid #d08281;}
+
+.content .awardsC .inn-wrap { float:left; width:670px;margin: 10px 0 0 30px;}
+.content .awardsC>div { float:left; width:670px;margin: 10px 0 0 30px;}
+.content .awardsC .inn-wrap .awardsH { background: url(/content/dam/indusind-csr/desktop/csr/images/expand-icon.png) 98% 7px no-repeat #EDEDED;float: left;font-size: 1.2em;color: #666;line-height: 35px;margin: 0 0 5px;padding:0 40px 0 10px;cursor: pointer;width: 100%;clear: both;font-weight: bold; border-top: 1px solid #d08281; box-sizing:border-box;}
+
+.content .awardsC .inn-wrap .awardsC {display: none;float: left;margin-bottom: 10px;width: 100%;clear: both;}
+.content .awardsC .inn-wrap .awardsH.active {background: url(/content/dam/indusind-csr/desktop/csr/images/collapse-icon.png) 98% 7px no-repeat #EDEDED;border-bottom: none; border-top: 1px solid #d08281;}
+.content .awardsC .inn-wrap .awardsC img{width:45%; padding:15px 20px 0 0}
+.content .awardsC .inn-wrap .awardsC img.single-img{width:100%;}
+.content .awardsC .inn-wrap .awardsC ul li{ list-style:disc; margin-left:25px;}
+/*Karan*/
+.content .awardsC .inn-wrap .awardsC h3{ font-size: 1.3em!important; font-family: Arial, Helvetica, sans-serif; float:left;width: 100%;}
+.content .awardsC .inn-wrap .awardsC .content p{float:left; font-size: 0.9em; text-align:justify; width:100%;}
+/* .content .awardsC .inn-wrap .awardsC .content p.note{ color: #d08281;} */
+.secNavigation .middleWrapper .int-middleWrapper .mid-right-content .content .accordian .awardsC .inn-wrap .accordian .inn-wrap .unorderedList ul.red-txt li { color:#d08281;padding-bottom: 5px;}
+.secNavigation .middleWrapper .int-middleWrapper .mid-right-content .content .accordian .awardsC .inn-wrap .accordian .inn-wrap .unorderedList ul.red-txt li p{font-size: 1em; padding-bottom: 2px; padding-top: 0px;}
+/* .red-txt{font-size: 0.9em; color:#d08281;padding-bottom: -5px !important;} */
+.secNavigation .middleWrapper .int-middleWrapper .mid-right-content .content .accordian .awardsC .inn-wrap .accordian .inn-wrap .richText p.note{ color: #d08281;}
+
+.content .awardsC .inn-wrap .awardsC .content ul li{ font-size: 0.9em;}
+
+/* .content .awardsC ul{ float:left;} */
+
+.content .awardsC ul li{list-style:disc; margin-left:25px;}
+
+
+.discStyleAward li {float:left; margin:7px 0; width:100%}
+.discStyleAward li a { color: #BC3F3D;cursor: pointer;}
+.discStyleAward li img {float:left;}
+.discStyleAward li p {float:left; width:81%; margin-left: 10px;padding-top: 0px;}
+
+.discStyleAwardCommittee li {float:left; margin:20px 0; width:100%}
+.discStyleAwardCommittee li a { color: #BC3F3D;cursor: pointer;}
+.discStyleAwardCommittee li  img {float:left; width:270px;}
+.discStyleAwardCommittee li p {float:left; width:60%; margin-left: 10px;padding-top: 0px; font-size:small!important; text-align:justify;}
+
+.redAward { font-weight:bold; color: #BC3F3D;}
+.boldAward {font-weight:bold; color: #565656!important; }
+.smallFontAward {color: #565656!important; font-size: 0.8em;line-height: 15px; float:left }
+.reportsPdf ul li { float:left; width:100%; padding: 10px 0px;}
+.font13 { font-size:1.2em; margin-top: 10px;padding-bottom: 0px!important; }
+.discStyleAwardCommittee li p.font14 { font-size:1.3em!important; ;}
+
+.discStyleAcyivity li p{float: left; margin: 0 10px;}
+/*18dec start*/
+
+.fulbody{ width:1025px;}
+.fulbody.content .awardsH{ width:970px;}
+.fulbody .thumImgs{ width:600px;/* margin: 0 0 0 74px;*/height:410px;}
+.fulbody .thumImgUl li{width:600px; height:410px;}
+.fulbody .thumImgScroll{ margin:auto; width:725px; float:none;}
+.fulbody.content .awardsC p{ width:95%; margin-bottom:25px;}
+.gallery2 .thumb_pre , .gallery2 .thumb_next{ margin:190px 10px 0;}
+.gallery2 .thumb_pre, .gallery2 .thumb_next { width:36px; height:36px;  float:left; cursor:pointer; background:url(/content/dam/indusind-csr/desktop/csr/images/sprite-2.png) no-repeat -4px -85px;  margin:190px 10px 0;}
+.gallery2 .thumb_next { float:right; background-position:-78px -84px; margin:190px 10px 0; }
+.gallery2 .thumb_pre.disable{ background-position: -1px -45px;}
+.gallery2 .thumb_next.disable{background-position:-75px -44px;}
+/*18 March 2015 starts*/
+.gallerythumHeight{height:430px !important; }
+p.galleryingIntro{float: left;   font-size: 1.2em;  font-weight: bold;    margin: 5px !important;    text-align: center; width: 100%;}
+/*18 March 2015 ends*/
+
+
+
+
+
+.prdDeatilWrapper .prdDetailLeft {
+    width: 783px;
+    float: left;
+}
+.tabWrapper {
+    float: left;
+    width: 760px;
+    padding: 10px 0 0;
+}
+.tabWrapper ul {
+    background-color: #2C2C2C;
+    float: left;
+    width: 100%;
+}
+tabWrapper ul li {
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.tabWrapper ul li.selected a, .tabWrapper ul li:hover a {
+    background-color: #7c7c7c;
+    text-decoration: none;
+}
+.tabWrapper ul li:first-child a {
+    padding: 15px 20px 15px 22px;
+}
+.tabWrapper ul li a {
+    background: url(/content/dam/indusind-csr/desktop/images/red-dotted-brd.png) left center no-repeat #2c2c2c;
+    float: left;
+    padding: 15px 7px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+}
+.tabWrapper ul li a h2 {
+    font-size: inherit;
+}
+.tabWrapper ul li.selected span.arrow {
+    display: block;
+}
+
+.tabWrapper ul li span.arrow {
+    width: 0;
+    height: 0;
+    border: 8px solid;
+    background-image: none;
+    border-color: #7c7c7c transparent transparent;
+    position: absolute;
+    left: 50%;
+    top: 42px;
+    margin: 5px 0 0 -4px;
+    display: none;
+}
+
+.tabContWrapper {
+    background-color: #fff;
+    float: left;
+    width: 660px;
+    padding: 27px 50px 30px;
+}
+
+.tabContWrapper, .termsandcondition {
+    min-height: 300px;
+}
+
+.tabContWrapper h2 {
+    font-size: 2.1em;
+    color: #666;
+    padding: 0 0 5px;
+    display: none;
+}
+
+.tabCont div {
+    float: left;
+}
+
+.tabContWrapper p {
+    font-size: 1.3em;
+    color: #666766;
+    line-height: normal;
+    padding: 0 10px 10px 0;
+    clear: both;
+}
+
+/* CSS by KARAN AND IMAN*/
+.secNavigation .middleWrapper .int-middleWrapper .mid-right-content .content .contentSec .whiteBlockText .heading {
+	float: right;
+    font-size: 1em;
+}
+
+.secNavigation .middleWrapper .int-middleWrapper .mid-right-content .content .contentSec .content {
+	font-size: 1.0em !important;
+    line-height: 0px !important;
+}
+
+/* CSS by KARAN AND IMAN*/
+.imgSpacing{
+	padding: 0 20px 20px 0;
+}
+
+.threeImgSpacing{
+	padding: 0 4px 10px 0;
+    width: 32%;
+}
+
+/* .heading h3.subTitile-1.pT10{
+	margin-bottom: 25px;
+} */
+
+/*Karan*/
+
+.awardsC.accStyle .inn-wrap div .imageListing div .discStyleAward{
+	font-size: 1em;
+}
+
+.accStyle .inn-wrap {
+	float:none !important;
+	width: 565px;
+    margin:10px auto !important;
+}
+
+.awardsUl{
+	width: 100%; 
+    float: left;
+}
+
+ .awardsUl.media-mansion li:nth-child(1){
+	min-height: 0px !important;
+}
+
+.heading h3.subTitile-1.pT10{
+	margin-bottom: 11px;
+}
+
+.pT15 {
+    padding-top: 2px;
+}                
+
+.tandC{
+	width: 1025px;
+	margin: 0 auto;
+}
+
+.middleWrapperContent.middleWrapper.int-middleWrapper.breadcrum.pT10{
+	padding-top: 75px;
+}
+
+.content .awardsC ul{ float:none;}
+
+.navigation{
+    z-index: 9999;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    top: 0;
+    width: 100%;
+}
+
+/* .thum_pre, .thum_next { width:36px; height:36px;  float:left; cursor:pointer; background:url(/content/dam/indusind-csr/desktop/csr/images/sprite-2.png) no-repeat -4px -85px; margin:114px 5px 0 10px; position: absolute;} */
+
+/* .thumImgScroll { width:100%; padding:25px 5px 0; height:300px; float:left; position: relative;} */
+
+/* .thum_next { float:right; background-position:-78px -84px; margin: 114px 10px 0;right: -2em;} */
+
+/* .main .secNavigation.middleWrapper.int-middleWrapper.mid-right-content .div .content .div.accordian .awardsC .inn-wrap .div .accordian .awardsC .inn-wrap .richText {
+    background-color: blue;
+} */
+
+
+
+.awardsC.accStyle .inn-wrap div .unorderedList .discStyle {
+	margin-left: 0px;
+}    
+
+.middleWrapperContent .middleWrapper .int-middleWrapper .SiteMap.fulbody .awardsC .gallery .thumImgScroll.imageGallery.gallery .thum_pre{
+    position: relative;
+    width: 5%;
+}
+
+.middleWrapperContent .middleWrapper .int-middleWrapper .SiteMap.fulbody .awardsC .gallery .thumImgScroll.imageGallery.gallery .thumImgs.gallerythumHeight {
+    margin: 0 0 0 25px;
+}
+
+.secNavigation .middleWrapper .int-middleWrapper .mid-right-content div .content div .gallery .thumImgScroll.imageGallery.gallery .thum_pre{
+    position: relative;
+    width: 6%;
+}
+
+.awardsC, .awardsH{
+    text-align: justify;
+}
+
+.int-middleWrapper .SiteMap{
+	padding-bottom:0px
+        }

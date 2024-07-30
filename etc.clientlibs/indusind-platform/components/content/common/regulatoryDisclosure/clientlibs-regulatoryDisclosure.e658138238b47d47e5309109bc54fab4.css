@@ -1,0 +1,68 @@
+
+.tabs-container .horizontal-tabs-container.scrollingtabs {
+ padding-top: 50px;
+}
+.horizontal-tabs-container.scrollingtabs:before{
+   position: absolute;
+   top: 49px;
+   height: 1px;
+   background: #ddd;
+   left: 0;
+   width: 100%;
+   content: "";
+}
+.horizontal-tabs-container.scrollingtabs.carrow .swiper-button-next, .horizontal-tabs-container.scrollingtabs.carrow .swiper-button-prev{
+ top: 47px;
+}
+.horizontal-tabs-container.scrollingtabs.carrow .swiper-button-prev{
+ right: 50px;
+
+}
+.horizontal-tabs-container.scrollingtabs.carrow .swiper-button-next{
+ right: 5px;
+  
+}
+.prod_features .feature_banner img {
+ border-bottom: solid 1px #ddd;
+}
+
+.remove_arrows .swiper-button-next, .remove_arrows .swiper-button-prev{
+    display:none;
+        }
+
+.remove_arrows .horizontal-tabs-container.scrollingtabs{
+    padding-top: 0;
+                }
+
+
+
+
+
+/**new css added bhagesh 18feb2022**/
+@media (max-width: 767px){ 
+.horizontal-tabs-container.scrollingtabs.carrow .swiper-button-next, .horizontal-tabs-container.scrollingtabs.carrow .swiper-button-prev {top:23px}
+#ratetabaccordion .horizontal-tabs-container.scrollingtabs{padding-top:30px}
+.tabs-container .horizontal-tabs-container.scrollingtabs{padding-top: 50px;}
+#ratetabaccordion .px-50px {padding-top: 20px!important}
+ }
+
+
+    .tabs-secondary .nav-tabs .active .nav-link:before {
+    width: calc(100% );
+    background-color: #f29d39;
+}
+
+/*sanjivani-tab-component-dot removed*/
+.card_select_wrap .dd .nav .nav-item:after{opacity:0;}
+
+
+.card-links .pdfleft a h4{font-size: 0.93rem;}
+.tab-content.dd .container.px-50px{padding-left: 0; padding-right: 0;}
+
+ 
+
+.remove_border .horizontal-tabs-container.scrollingtabs:after{top: auto; bottom: 8px; height: 1px; background: #ddd;}
+
+.tabs-secondary .swiper-button-next,.tabs-secondary .swiper-button-prev{
+    display:none;
+}

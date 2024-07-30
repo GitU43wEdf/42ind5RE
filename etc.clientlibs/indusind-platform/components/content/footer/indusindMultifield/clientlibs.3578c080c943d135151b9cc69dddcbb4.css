@@ -1,0 +1,24 @@
+.icons > p a{
+color:white;
+}
+
+.indus-multi-footer{
+display:flex;
+}
+.icons{
+    width: 100px;
+}
+.icons img{
+    width:100%;
+    height:100%;
+} 
+.indus-multi-footer {
+    display: flex;    
+    flex-wrap: wrap;
+}
+.icons {
+    width: 50%;
+    height: 50%;
+    word-wrap: break-word;
+    padding: 0px 8px;
+}

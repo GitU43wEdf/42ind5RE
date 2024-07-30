@@ -1,0 +1,25 @@
+.advantages_section .slider-with-icons .swiper-button-next, .advantages_section .slider-with-icons .swiper-button-prev{
+ top: 0px!important;
+}
+.advantages_section .slider-with-icons{
+    margin-top: -20px;
+    padding-top: 30px!important;
+    padding-bottom: 20px!important;
+}
+.advantages_section .slider-with-icons .link_view{
+	color: #832625!important;
+                font-weight: 600;
+    cursor: pointer
+}
+@media (max-width: 767px){
+ .advantages_section .heading{
+   padding-bottom: 1rem;
+ }
+ .advantages_section .slider-with-icons{
+   margin-top: 0;
+}
+ .advantages_section .slider-with-icons .swiper-button-next, .advantages_section .slider-with-icons .swiper-button-prev{
+  display: none!important;
+ }
+}
+  

@@ -1,0 +1,87 @@
+.offer_step {
+    position: relative;
+}
+
+.offer_step .swiper-slide figure {
+    height: 120px;
+    line-height: 100px;
+}
+
+.arrow-navigation {
+    width: 100%;
+    position: absolute;
+    top: 48%;
+}
+
+.arrow-navigation .swiper-button-next {
+    background: url("../../../../../content/dam/indusind-platform-images/savingAccount/right-arrow.png") no-repeat 0 0;
+    height: 30px;
+    width: 20px;
+    right: -50px;
+}
+
+.arrow-navigation .swiper-button-prev {
+    background: url("../../../../../content/dam/indusind-platform-images/savingAccount/left-arrow.png") no-repeat 0 0;
+    height: 30px;
+    width: 20px;
+    left: -50px;
+}
+.swiper-button-next-offer {
+    background: url("../../../../../content/dam/indusind-platform-images/savingAccount/right-arrow.png") no-repeat 0 0;
+    height: 30px;
+    width: 20px;
+    right: 30px;
+    position: absolute;
+    cursor: pointer;
+                z-index: 100;
+}
+ .swiper-button-prev-offer {
+    background: url("../../../../../content/dam/indusind-platform-images/savingAccount/left-arrow.png") no-repeat 0 0;
+    height: 30px;
+    width: 20px;
+    left: -30px;
+    position: absolute;
+    cursor: pointer;
+                            z-index: 100;
+}
+.swiper-button-next-offer.swiper-button-disabled, .swiper-button-prev-offer.swiper-button-disabled{
+    opacity:.5;
+}
+
+
+.arrow-navigation .swiper-button-next {
+
+    right: 30px;
+}
+
+.arrow-navigation .swiper-button-prev {
+    left: -25px;
+    transform:none;
+}
+.offer_credit_card_slider {
+        padding: 0 30px;
+    }
+    .indus_digital_saving_account {
+    padding: 0 30px;
+    }
+
+@media (max-width:767px) {
+    .arrow-navigation {
+        width: auto;
+        position: absolute;
+        top: 5%;
+        right: 30px;
+        border: 1px solid red;
+    }
+    .arrow-navigation .swiper-button-prev {
+        left: -40px;
+    }
+    .arrow-navigation .swiper-button-next {
+        right: -15px;
+    }
+    .offer_step .swiper-container {
+        margin: 40px auto;
+    }
+.swiper-button-next-offer{right: 0}
+.swiper-button-prev-offer{left: auto; right: 35px} 
+}

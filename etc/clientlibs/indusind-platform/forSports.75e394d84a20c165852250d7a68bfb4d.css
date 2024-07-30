@@ -1,0 +1,305 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  margin-bottom: 0;
+}
+
+
+/*-----Common CSS Starts-----*/
+.wrapper{
+  width: 90%;
+  margin: auto;
+  max-width: none;
+  padding: 0;
+  background-color: #fff;
+  padding: 0 50px;
+  border-radius: 5px;
+}
+
+.bg-grey{
+  background-color: #f8f8f8;
+}
+
+.home_video_component{
+    border-bottom: solid 1px #832625;
+}
+
+.slice{
+    padding-top: 2rem !important;
+}
+
+.programme .pb-3{
+	padding-bottom: 0 !important;
+}
+
+.card-body .btn{
+	padding-left: 0 !important;
+}
+
+.card-body .btn-icon-label .btn-inner--icon:not(:first-child){
+	top: 6px;
+}
+
+@media (max-width:767px){
+  .wrapper{
+    width: 90%;
+    padding: 0 15px;    
+  }
+}
+/*-----Common CSS Ends-----*/
+
+.footerListDisc .list-unstyled li::before {
+    color: #f8a20a;
+  }
+
+.footerListDisc ::marker {
+    color: #f8a20a;
+  }
+
+.footerListDisc .list-of-links .list-unstyled {
+        list-style: disc;
+        margin-left: 5%;
+    }
+
+    .footerListDisc:first-child .list-of-links .list-unstyled,
+    .footerListDisc:nth-child(4) .list-of-links .list-unstyled {
+        list-style: none;
+        margin-left: 0px;
+    }
+
+.footerListDisc:nth-child(4) .list-of-links p{
+    margin-bottom: 0;
+}
+
+.footerListDisc:nth-child(4) .list-of-links p a{
+    display: inline-block;
+	color: #fff;
+	font-weight: bold;
+    text-decoration:underline;
+}
+
+@media (min-width:1024px) {
+    .footerListDisc .list-of-links .list-unstyled {
+        margin-left: 8%;
+    }
+}
+
+
+  .forSportsParent{
+    margin: auto;
+    max-width: 100%;
+	background-color: #fff;
+}
+
+
+.js-floating-layer{
+	overflow: hidden;
+}
+
+.bg-grey .quoteBannerCont{
+    margin:0 -50px;
+}
+
+.quoteBanner{
+    padding-left: 50px;
+}
+
+.playerInfo h4{
+    color: white;
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p{
+    margin-bottom: 0;
+  }
+  
+  
+  /*-----Common CSS Starts-----*/
+  .wrapper{
+    width: 90%;
+    margin: auto;
+    max-width: none;
+    padding: 0;
+    background-color: #fff;
+    padding: 0 50px;
+    border-radius: 5px;
+  }
+  
+  .bg-grey{
+    background-color: #f8f8f8;
+  }
+  
+  .home_video_component{
+      border-bottom: solid 1px #832625;
+  }
+  
+  .slice{
+      padding-top: 2rem !important;
+  }
+  
+  .programme .pb-3{
+      padding-bottom: 0 !important;
+  }
+  
+  .card-body .btn{
+      padding-left: 0 !important;
+  }
+  
+  .card-body .btn-icon-label .btn-inner--icon:not(:first-child){
+      top: 6px;
+  }
+  
+  @media (max-width:767px){
+    .wrapper{
+      width: 90%;
+      padding: 0 15px;    
+    }    
+  }
+  /*-----Common CSS Ends-----*/
+  
+  .footerListDisc .list-unstyled li::before {
+      color: #f8a20a;
+    }
+  
+  .footerListDisc ::marker {
+      color: #f8a20a;
+    }
+  
+  .footerListDisc .list-of-links .list-unstyled {
+          list-style: disc;
+          margin-left: 5%;
+      }
+  
+      .footerListDisc:first-child .list-of-links .list-unstyled,
+      .footerListDisc:nth-child(4) .list-of-links .list-unstyled {
+          list-style: none;
+          margin-left: 0px;
+      }
+  
+  .footerListDisc:nth-child(4) .list-of-links p{
+      margin-bottom: 0;
+  }
+  
+  .footerListDisc:nth-child(4) .list-of-links p a{
+      display: inline-block;
+      color: #fff;
+      font-weight: bold;
+  }
+  
+  @media (min-width:1024px) {
+      .footerListDisc .list-of-links .list-unstyled {
+          margin-left: 8%;
+      }
+  }
+  
+  
+    .forSportsParent{
+      margin: auto;
+      max-width: 100%;
+      background-color: #fff;
+  }
+  
+  
+  .js-floating-layer{
+      overflow: hidden;
+  }
+  
+  .bg-grey .quoteBannerCont{
+      margin:0 -50px;
+  }
+  
+  .quoteBanner{
+      padding-left: 50px;
+  }
+  
+  .playerInfo h4{
+      color: white;
+  }
+
+  .forSportsParent{
+      box-shadow: 1px 1px 20px #e1e0e0;
+  }
+  
+  @media screen and (min-width: 1024px) {
+      .forSportsParent{
+             padding-left: 50px;
+             padding-right: 50px;
+             padding-bottom: 50px;
+             margin: auto;
+             max-width: 1220px;
+             background-color: #fff;
+         }
+         .quoteBanner{
+             padding-left: 7%;
+         }
+       }
+  
+  
+
+@media screen and (min-width: 1024px) {
+    .forSportsParent{
+           padding-left: 50px;
+           padding-right: 50px;
+           padding-bottom: 50px;
+           margin: auto;
+           max-width: 1220px;
+           background-color: #fff;
+       }
+       .quoteBanner{
+           padding-left: 7%;
+       }
+     }
+
+.home_video_component .modal-lg{
+    max-width: 100% !important;
+	margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.forSportsParent{
+	box-shadow:none;
+}
+
+footer #list-of-links- p a:last-cild{
+	text-decoration:underline;
+}
+
+.footerListDisc:nth-child(4) .device-drop-footer{
+    cursor: default;
+  }
+
+  .footerListDisc:nth-child(4) .device-drop-footer[aria-expanded="true"]::after, .footerListDisc:nth-child(4) .device-drop-footer[aria-expanded="false"]::after{
+    content: none !important;
+    cursor: default;
+  }
+
+@media (max-width: 579px){
+    .inner-banner .bnr_caption{
+    	width: calc(100% - 60px) !important;
+	}
+
+
+    .home_video_component ul.dots{
+    	bottom: -15px !important;
+	}
+
+    .withbanner.forSportsParent #pressrelease{
+		margin-top:-10px;
+	}
+
+	.inner-banner .bnr_caption{
+    	padding-bottom: 0 !important;
+	}
+}

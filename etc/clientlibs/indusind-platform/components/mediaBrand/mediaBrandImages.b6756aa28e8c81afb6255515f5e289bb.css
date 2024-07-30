@@ -1,0 +1,44 @@
+
+.press_brand_wrp .card-box .content_press p{font-size: 14px; color:#797979;}
+.press_brand_wrp .card-box .content_press a.pdfbtn_press{padding-left: 15px;}
+.press_brand_wrp .card-box .content_press a.pdfbtn_press img{ height: 34px;}
+.brand_wrp .brand_s1 .contentbx p strong{font-weight: 600;}
+.brand_wrp .brand_s1 .brand-l-download{ max-width: 465px;}
+
+.card-box figure{position: relative;}
+.btn-play.btn-icon-only {line-height: 4.2rem; width: 4.3rem; height: 4.3rem; border: 4px solid #fff; padding: 0; color: #fff; background: transparent; opacity: .7;}
+
+.content_press p{margin: 0px; padding: 0px; line-height: normal;}
+
+.tv_brand  .card-box .imagebox{
+	background: none!important;
+                min-height: 150px;
+}
+
+@media (max-width: 1169px){
+    
+    
+    
+}
+
+@media (max-width: 990px){
+    
+    
+}
+
+@media (max-width: 767px){
+    .brand_wrp .brand_s1 .contentbx h3{padding-top:10px;}
+    .card-box figure.imagebox img{width:100%; height: auto;}
+
+}
+@media (max-width: 599px){
+    
+    .brand_wrp .brand_s1 .brand-l-download li img{height: 45px; width: auto;}
+    
+}
+@media (max-width: 479px){	
+    .brand_wrp .brand_s1 .brand-l-download li img{height: 40px; width: auto;}
+}
+.hiddenImg{
+    display: none;
+}                    

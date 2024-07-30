@@ -1,0 +1,81 @@
+.chat-button-container {
+    display: flex;
+    position: relative;
+}
+
+.chatbot-icon-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 120px;
+    z-index: 99999;
+}
+
+.chat-icon-container {
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+
+.Button-deposite {
+    margin-bottom: 8px !important;
+    width: 100px;
+    cursor: pointer;
+    padding: 7px 15px;
+    border: 1px solid #870016;
+    border-radius: 100px;
+    color: #f2f2f2;
+    background-color: #870016;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.Button-account {
+    margin-bottom: 8px !important;
+    width: 162px;
+    cursor: pointer;
+    padding: 7px 15px;
+    border: 1px solid #870016;
+    border-radius: 100px;
+    color: #f2f2f2;
+    background-color: #870016;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.Button-help {
+    width: 200px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 7px 15px;
+    border-radius: 100px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    border: 1px solid #C8D0D5;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+}
+
+iframe#chatBoxFrame {
+    box-shadow : none !important;
+}
+#chatButtonFrame {
+    width: 132px!important;
+    min-width: 400px!important;
+    max-width: 132px!important;
+    bottom: 7% !important;
+    height: 165px!important;
+}

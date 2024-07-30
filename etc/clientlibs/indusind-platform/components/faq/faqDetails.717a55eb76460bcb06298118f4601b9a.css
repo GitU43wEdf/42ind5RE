@@ -1,0 +1,127 @@
+.faqsearch .form-control{ color:#000; border:0px;}
+.faqsearch button.btn{ border:0px;}
+
+
+
+@media (max-width: 1169px){
+	
+}
+
+@media (max-width: 990px){    
+
+}
+
+@media (max-width: 767px){
+	
+}
+@media (max-width: 599px){
+	 .faqsearch{border-radius: 5px;}
+	 .faq_banner{position: absolute !important; background: none !important; top:0px !important; width:100% !important;}
+	 .faq_banner .col{padding:0px !important; border: 0px !important;}
+}
+@media (max-width: 479px){
+	
+}
+
+@media (max-width: 359px){
+
+}
+
+/*********************** For Rates Page CSS *****************************/
+
+.faqsearch .form-control{ color:#000; border:0px;}
+.faqsearch button.btn{ border:0px;}
+
+.faq-accordion{border-right:1px solid rgba(0, 0, 0, .08); border-radius: 5px 0 0 5px;}
+.faq-accordion .accord{ border-radius: 0px; border-bottom:1px solid rgba(0, 0, 0, .08); background: #f9f9f9;}
+.faq-accordion .accord li:before{
+	display: none;
+}
+.faq-accordion > .accord:first-child{border-radius:5px 0 0 0; overflow: hidden;}
+.faq-accordion .accord .card-body{padding: 0px;}
+.faq-accordion .accord .card-body .accord:last-child{border-bottom: 0px;}
+.faq-accordion .accord a{padding: 10px 15px; font-family: 'Myriad Pro' !important; display: block;}
+.faq-accordion > .accord > h6 > a:before {left: 15px; width: 0px; bottom: 13px; content: ''; height: 2px; background: #fd9907; position: absolute; transition: all 0.3s;}
+.faq-accordion > .accord > h6 > a[aria-expanded="true"]:before {width: 20px; transition: all 0.3s;}
+.faq-accordion .accord a[aria-expanded="true"]{background: #832625; color: #fff;}
+.faq-accordion .card-body .accord a[aria-expanded="true"]{color: #832625; background: #f9f9f9; font-weight: 600 !important;}
+.acc-lavel02{background: #fff !important; border-right: 0px;}
+.acc-lavel02 a{ font-size: 14px !important; font-weight: 400 !important;}
+.acc-lavel03{background: #f9f9f9 !important;}
+.acc-lavel03 > h6 > a{font-size: 13px !important; font-weight: 600 !important; color: #000 !important; padding-top: 0px !important; position: relative; padding-left: 30px !important;}
+.acc-lavel03 > h6 > a:after{display: none;}
+.acc-lavel03 > h6 > a i{font-size: 7px; color:#ccc; position: absolute; top: 7px; left: 15px;}
+
+.acc-lavel03 ul li a{font-size: 13px !important;  color: #000 !important; padding-top: 0px !important; position: relative; padding-left: 30px !important;}
+.acc-lavel03 ul li a.active{font-weight: 600 !important;}
+.acc-lavel03 ul li a:after{display: none;}
+.acc-lavel03 ul li a i{font-size: 7px; color:#ccc; position: absolute; top: 7px; left: 15px;}
+
+.main-lavel > a{padding: 15px !important;}
+
+.btn-red-stable{background-color: #832625 !important; border-color: #832625 !important; color: #fff !important;}
+
+.lavel2nav li, .lavel2nav li h6{ width: 100%;}
+.lavel2nav li{border-bottom:1px solid  rgba(0, 0, 0, .08);}
+.lavel2nav li:last-child{border-bottom: 0px;}
+
+.accord-box{border-bottom:1px solid rgba(0, 0, 0, .08);}
+.accordian-content{padding:25px 65px 25px 25px;}
+.accord-box .accord-header{padding:20px 0;}
+.accord-box .accord-header h6 {position: relative; margin: 0px;}
+.accord-box .accord-header h6[aria-expanded="true"], .most-faqs h6[aria-expanded="true"]{color: #832625;}
+
+.accord-box .accord-header h6 a:after {content: "\f105"; font-family: "Font Awesome 5 Pro"; font-weight: 400; position: absolute; top: 50%; transform: translateY(-50%); right: 10px; font-size: 15px;color: #832625;}
+.accord-box .accord-header h6 a[aria-expanded="true"]:after {content: "\f107";color: #832625;} 
+
+.accord-box .accord-header h6 a {display: block; padding-right: 30px;}
+.faq-accordion .accord h6 > a {display: block; position: relative;}
+.faq-accordion .accord h6 a.active{font-weight: bold!important;}
+
+.faq-accordion .accord h6 a:after {content: "\f067"; font-family: "Font Awesome 5 Pro"; position: absolute; right: 10px; font-size: 14px; font-weight: 400;}
+.faq-accordion .accord h6 a[aria-expanded="true"]:after {content: "\f068"; /* fa-chevron-up */}
+.faq-accordion .card-body .accord a:after {content: "\f105"; font-family: "Font Awesome 5 Pro"; position: absolute; right: 12px; font-size: 13px;}
+.faq-accordion .card-body .accord a[aria-expanded="true"]:after {content: "\f107"; } 
+
+.most-faqs .card-header{padding: 0;}
+.most-faqs .card-header a{padding: 15px 30px 15px 15px; display: block; position: relative;}
+.most-faqs .card-header a:after {content: "\f067"; font-family: "Font Awesome 5 Pro"; position: absolute; right: 10px; font-size: 18px; color: #832625; top:15px;}
+.most-faqs .card-header a[aria-expanded="true"]:after {content: "\f068"; } 
+
+
+@media (max-width: 990px){
+	.faq-accordion{border-radius: 5px; border-left:1px solid rgba(0, 0, 0, .08);}
+	.faq-accordion > .accord:first-child {border-radius: 5px 5px 0 0; border-top: 1px solid rgba(0, 0, 0, .08);}
+	.faq-accordion > .accord:last-child {border-radius:0 0 5px 5px; border-bottom: 1px solid rgba(0, 0, 0, .08);}
+	.faq-accordion .card-body .acc-lavel02 > h6 > a[aria-expanded="true"]{border-bottom:1px solid rgba(0, 0, 0, .08);}
+	.acc-lavel03 {background: #fff !important;}
+	.faq-accordion .card-body .acc-lavel03 > h6 > a[aria-expanded="true"]{background: #fff; border-bottom:1px solid rgba(0, 0, 0, .08);}
+	.acc-lavel03 > h6 > a i {top: 14px;	left: 0px; display: none;}
+	.acc-lavel03 > h6 > a {padding-top: 15px !important; padding-left: 0px !important;	margin: 0 25px;}
+	.faq-accordion .accord a{padding:15px;}
+	.faq-accordion .card-body .acc-lavel03 > h6 > a span{position: relative;}
+	.faq-accordion .card-body .acc-lavel03 > h6 > a span:after{position: absolute; content: ''; width: 0%; height: 3px; background: #f29d39; bottom: -18px; left:0px; transition: all 0.3s;}
+	.faq-accordion .card-body .acc-lavel03 > h6 > a[aria-expanded="true"] span:after{width: 100%; transition: all 0.3s;}
+	.accordian-content {padding:10px 35px}
+	.accord-box .accord-header {padding: 15px 0;}
+	.accordian-content .accord-box .accord-header h6{ font-size: 14px;}
+	.accordian-content .accord-box .accord-header h6 a{padding-right: 25px}
+	.accordian-content .accord-box .accord-body p{font-size: 14px;}
+	.accord-box:last-child{border: 0px;}
+
+
+}
+
+@media (max-width: 599px){
+	 .faqsearch{border-radius: 5px;}
+	 .faq_banner{position: absolute !important; background: none !important; top:0px !important; width:100% !important;}
+	 .faq_banner .col{padding:0px !important; border: 0px !important;}
+}
+@media (max-width: 479px){
+	.acc-lavel03 > h6 > a{margin:0 20px;}
+	.accordian-content {padding: 10px 20px;	}
+	.most-faqs h6, .most-faqs p{font-size:15px;}
+}
+.accord-body ul{
+	list-style:disc;
+}

@@ -1,0 +1,72 @@
+
+
+/*********************** For Global CSS *****************************/
+
+/*********************** For Reach us Page  CSS *****************************/
+
+
+.inclusive_call_back .controls .form-group{margin-bottom: 2rem;}
+.inclusive_call_back .controls .form-group .form-control{ border-bottom: 2px solid #e5e5e5 !important; border-radius: 0px; padding-left: 0px; height: calc(2rem + .125rem) !important; padding: 0px !important; background:none;}
+.inclusive_call_back .controls .form-group .ptype{font-size: 1rem; padding: 0px; border-bottom: 2px solid #e5e5e5 !important; height: calc(2.35rem + .125rem) !important; color:#495057;}
+.select_wrap .select-full.ptype:after{right: 5px; top: 45%; padding: 3px;}
+
+.js .inputfile {width: 0.1px; height: 0.1px; opacity: 0; overflow: hidden; position: absolute; z-index: -1;}
+.inputfile + label {font-size: 1rem; text-overflow: ellipsis; white-space: nowrap; cursor: pointer; display: inline-block; overflow: hidden; padding: 0.625rem 1.25rem;}
+.no-js .inputfile + label {display: none;}
+.inputfile:focus + label, .inputfile.has-focus + label {outline: 1px dotted #000; outline: -webkit-focus-ring-color auto 5px;}
+.inputfile-6 + label {color: #495057;}
+.inputfile-6 + label {border-bottom: 2px solid #e5e5e5; padding: 0; width: 100%;}
+.inputfile-6 + label span {width: 70%; min-height: 2em; display: inline-block; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; vertical-align: top;}
+.inputfile-6 + label strong {height: 100%; color: #832625; padding: 0px 10px; font-size: 14px; border-radius: 5px; line-height: 1.5rem; font-weight: 400; border:1px solid #832625; float:right;}
+
+.press-wrap .product-card .swiper-slide {
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: auto;
+}
+
+@media (min-width: 992px)
+.press-wrap .product-card .swiper-slide {
+    width: 60%;
+}
+@media (min-width: 768px)
+.press-wrap .product-card .swiper-slide {
+    width: 60%;
+}
+@media (min-width: 576px)
+.press-wrap .product-card .swiper-slide {
+    width: 70%;
+}
+
+@media (max-width: 1169px){
+
+}
+
+@media (max-width: 990px){
+	.inputfile-6 + label span {width: 65%;}
+}
+
+@media (max-width: 767px){
+	
+}
+@media (max-width: 599px){
+	
+}
+@media (max-width: 479px){	
+
+}
+
+@media (max-width: 359px){
+
+}

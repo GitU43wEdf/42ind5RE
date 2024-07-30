@@ -1,0 +1,30 @@
+.financial_filters .select_wrap .select-full{padding: 12px 30px 10px 10px; border: solid 1px #d9d9d9; margin: 0; border-radius: 5px; color: #000;}
+.financial_filters .select_wrap .select-full:after{top: 12px; right: 15px;}
+
+.press_brand_wrp .card-box .imagebox{
+                min-height: 190px
+            }
+
+@media (max-width: 1169px){
+    
+    
+    
+}
+
+@media (max-width: 990px){
+    
+    
+}
+
+@media (max-width: 767px){
+   
+
+}
+@media (max-width: 599px){
+    
+    
+}
+@media (max-width: 479px){	
+    
+    
+}

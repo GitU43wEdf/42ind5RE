@@ -1,0 +1,60 @@
+.ad_bannermain{position: relative;}
+.ad_bannermain .bnr_caption{position: absolute; top: 50%; transform: translateY(-50%); padding-left: 35px; width: 98%;}
+.ad_bannermain .bnr_caption h2{font-size:2.5rem;}
+.ad_bannermain.adbanner_full picture img{
+    width: 100%;
+}
+@media (max-width: 1169px){
+    .ad_bannermain .bnr_caption{padding: 0px;}
+    .ad_bannermain .bnr_caption h2 {font-size: 2.0rem;}
+}
+
+@media (max-width: 1024px){
+/* .adbanner_full{
+    background: #000;
+}
+.adbanner_full .bnr_caption{
+    position: relative;
+    top: 0!important;
+    transform: none!important;
+    width: 100%;
+    padding: 25px 0;
+}
+.adbanner_full .bnr_caption .row{
+    justify-content: center;
+} */
+}
+
+@media (max-width: 767px){
+    .ad_bannermain .bnr_caption{top: 20%; transform: translateY(-20%);}
+    .ad_bannermain .bnr_caption h2 {font-size: 1.6rem;}
+    .ad_bannermain .bnr_caption h3 {font-size: 1.2rem;}
+    .ad_bannermain .bnr_caption h2 img{height: 40px; margin-top: 10px; }
+        
+}
+@media (max-width: 599px){
+    .ad_bannermain .bnr_caption{top: 15%; transform: translateY(-15%);}
+    .ad_bannermain .bnr_caption h2 {font-size: 1.6rem;}
+	.indusmobile-slider .swiper-slide figure{width: 60px; height: 60px;line-height: 60px}
+	.indusmobile-slider .swiper-slide figure img{max-width: 40px;max-height: 40px}
+	.carrow.indusmobile-slider.swiper-container{padding-bottom: 10px!important}
+}
+@media (max-width: 479px){
+    .ad_bannermain .bnr_caption h3 {font-size: 1rem;}
+
+}
+.carrow.indusmobile-slider .swiper-button-next, .carrow.indusmobile-slider .swiper-button-prev{
+    top: 45%;
+    }
+  @media (max-width: 1024px){
+   .carrow.indusmobile-slider .swiper-button-next, .carrow.indusmobile-slider .swiper-button-prev{
+    top: 55%;
+    }
+  }
+  
+  @media (max-width: 767px){
+   .carrow.indusmobile-slider .swiper-button-next, .carrow.indusmobile-slider .swiper-button-prev{
+    top: 58%;
+    }
+  }
+      

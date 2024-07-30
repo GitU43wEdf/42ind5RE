@@ -1,0 +1,314 @@
+.nav-burgundy ul{
+				background: #832625;
+				border-radius: 5px;
+}
+.nav-burgundy ul li {
+	border-right: solid 1px #a86867;
+	font-size: 1.125rem;
+	padding: 0 30px;
+}
+.nav-burgundy ul li:last-child{
+	border: none;
+}
+.nav-burgundy ul li a, .nav-burgundy ul li a:hover{
+	color: #fff;
+	position: relative;
+	padding: 10px 0;
+}
+.nav-burgundy ul li a.active{font-weight: bold}
+.nav-burgundy ul li a.active:after{
+	width: 100%;
+	height: 2px;
+	background: orange;
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+@media (max-width: 992px){
+	.nav-burgundy ul li {
+    padding: 0 15px;
+    }
+}
+.side_img_container .swiper-slide{
+ background-color: #f3f3f3;
+}
+.side_img_container .section_content{
+ padding: 60px;
+}
+.side_img_container .swiper-button-next, .side_img_container .swiper-button-prev{
+ top: auto;
+ bottom: 45px;
+ left: 60px;
+ background-image: url(../../assets/img/img/arrow.png);
+ background-size: inherit;
+ width: 32px;
+ height: 20px;
+
+}
+.side_img_container .swiper-button-next, .side_img_container .swiper-button-prev{
+    background-image: none;
+  display: block;
+  width: 19px;
+  height: 20px;
+  border-top: 2px solid #832625;
+  border-left: 2px solid #832625;
+}
+
+.side_img_container .swiper-button-next{
+ 	transform: rotate(135deg);
+    left: 130px;
+}
+
+.side_img_container .swiper-button-prev{
+ /*transform: rotate(180deg);*/
+    transform: rotate(-45deg);
+}
+
+.side_img_container .swiper-button-next:after,
+.side_img_container .swiper-button-prev:after{
+  content: "";
+  display: block;
+  width: 2px;
+  height: 40px;
+  background-color: #832625;
+  transform: rotate(-45deg) translate(13px, 5px);
+  left: 0;
+  top: 0;
+}
+
+.career_testimonial .side_img_container .section_content p{
+ position: relative;
+ margin-top: 25px;
+}
+.career_testimonial .side_img_container .section_content p .left_quote{
+  position: absolute;
+  left: -6px;
+  top: -15px;
+  z-index: 0;
+}
+@media (max-width: 992px){
+ .side_img_container .section_content{
+  padding: 20px;
+  padding-bottom: 40px
+ }
+ .side_img_container .swiper-button-next, .side_img_container .swiper-button-prev{
+  bottom: 20px;
+  left: 25px;
+ }
+ .side_img_container .swiper-button-next{
+  left: 100px;
+
+ }
+
+}
+
+
+
+/* awesome life ahead */
+.awesome_life .section_content{
+ padding: 20px 20px 20px 0;
+}
+@media (max-width: 992px){
+ .awesome_life .section_content{
+  padding: 15px;
+ }
+}
+/* @end awesome life ahead */
+
+/* experience cards */
+.emp_exp .nav.tabs-withdot .nav-item{
+   margin-right: 15px;
+    padding-right: 15px;
+}
+.emp_card{
+ text-align: center;
+ background: #f8f8f8;
+ padding: 24px 30px 40px 30px;
+}
+.emp_card .card-header{
+ border: none;
+}
+.emp_card .card-header img{
+ width: 150px;
+ height: 150px;
+ border: solid 5px #fff;
+ border-radius: 50%;
+}
+.emp_card .card-footer{
+ left: 0;
+ bottom: 10px;
+}
+.emp_card .card-footer .d-flex{
+ display: block!important;
+}
+/* @end experience cards */
+
+/* career detail */
+.job_detail .showing_results{
+ font-size: 22px;
+ border-top: solid 1px #e5e5e5;
+ border-bottom: solid 1px #e5e5e5;
+ padding: 10px 0;
+ margin-bottom: 24px;
+}
+.job_detail .head_row {
+ background: #f8f8f8;
+ padding: 15px 0;
+ margin-bottom: 24px;
+}
+.job_detail .head_row h5{
+ color: #832625;
+ font-weight: 700;
+ margin: 0;
+}
+.job_detail .content_row{
+padding: 18px 0;
+margin-bottom: 18px;
+border-bottom: solid 1px #e5e5e5;
+}
+.job_detail .content_row:last-child{
+ border: none;
+ margin: 0;
+ padding-bottom: 40px;
+}
+.high_contrast .job_detail .head_row{background: #222;}
+/* @end career details */
+/* our culture */
+.our_culture .container{padding-top: 40px; margin-bottom: 40px;}
+.our_culture .row{
+ align-items: center;
+}
+.our_culture .section_content{
+ padding: 20px 20px;
+ background: #f3f3f3;
+ margin-left: -50px;
+}
+@media (max-width: 992px){
+ .our_culture .section_img img{
+  width: 100%;
+ }
+ .our_culture .section_content{
+  margin: 0 auto;
+  margin-top: -20px;
+  position: relative;
+  width: 92%;
+ }
+
+#life_at_indusind .trending-topics-slider {margin-top: -15px!important;}
+}
+/* @end our culture */
+.career_about_indusind .left_section{
+  height: 410px;
+  background: #832625;
+ padding-right: 60px;
+}
+.career_about_indusind .right_section{
+ background: url('../../../../../content/dam/indusind-platform-images/Career/career_about_indusind_bg.jpg');
+ min-height: 347px;
+ width: 100%;
+ margin: 0 auto;
+ position: relative;
+ left: -34px;
+ padding: 0 60px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+.career_about_indusind .right_section{
+    display: table-cell!important;
+            vertical-align: middle;
+        }
+        }
+.career_about_indusind .right_section h2, .career_about_indusind .right_section p{
+ color: #fff;
+}
+
+@media (max-width: 1024px){
+ .career_about_indusind .left_section{
+  padding-right: 40px;
+  padding-left: 20px;
+ }
+ .career_about_indusind .left_section img{
+  max-width: 90%;
+ }
+}
+
+@media (max-width: 992px){
+ .career_about_indusind .left_section{
+  justify-content: center!important;
+  align-items: flex-start!important;
+  padding-top: 12px;
+  padding-right: 0;
+ }
+ .career_about_indusind .right_section{
+  top: -200px;
+  margin-bottom: -200px;
+  width: 92%;
+  left: 0;
+  padding: 15px;
+ }
+}
+.interested_joining .white-space{
+ height: 30px;
+ background: #fff;
+}
+.interested_joining .container{
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+.awesomplete {
+    width: 100%;
+}
+
+.awesomplete ul {
+    padding: 10px 0 15px 0; 
+    position: absolute;
+    background: #fff;
+    z-index: 1020;
+    width: 100%;
+    left: 0;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.awesomplete ul li {
+    margin-bottom: 5px;
+    padding:0 15px 5px;
+    border-bottom: solid 1px #ccc;
+    cursor: pointer;
+}
+
+.awesomplete ul li:last-child {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.awesomplete input {
+    width: 100%;
+    padding-left: 50px!important;
+    background-color: #fff!important;
+}
+
+.search_box_common .input-group-prepend {
+    position: absolute;
+    top: 0px;
+    height: 49px;
+}
+
+.careerSearch .bootstrap-select{border: solid 1px #ccc; padding: 7px 20px 7px 0px; border-radius: 5px;}
+.careerSearch .bootstrap-select .dropdown-toggle .filter-option {font-size: 1rem; font-weight: normal}
+
+.careerSearch .custom_select_wrap2:after, .careerSearch .custom_select_wrap:after{top: 13px;}
+.careerSearchResults .btn{font-size: .875rem; min-width: 150px}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.careerSearch .bootstrap-select .dropdown-toggle .filter-option{
+	line-height: 1.4!important
+ }
+.search_role .custom_select_wrap2 .btn.dropdown-toggle{
+                            padding-top: 0!important
+   }
+}

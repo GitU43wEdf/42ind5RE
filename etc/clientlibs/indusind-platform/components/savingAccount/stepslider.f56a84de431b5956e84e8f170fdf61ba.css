@@ -1,0 +1,48 @@
+.easy_step {
+    position: relative;
+}
+
+.easy_step .swiper-slide p {
+    font-weight: bold;
+}
+
+.arrow-navigation {
+    width: 100%;
+    position: absolute;
+    top: 48%;
+}
+
+.arrow-navigation .swiper-button-next {
+    background: url("../../../../../content/dam/indusind-platform-images/savingAccount/right-arrow.png") no-repeat 0 0;
+    height: 30px;
+    width: 20px;
+    right: -50px;
+}
+
+.arrow-navigation .swiper-button-prev {
+    background: url("../../../../../content/dam/indusind-platform-images/savingAccount/left-arrow.png") no-repeat 0 0;
+    height: 30px;
+    width: 20px;
+    left: -50px;
+}
+
+.meetbtns .btn{z-index: 100}
+
+@media (max-width:767px) {
+    .arrow-navigation {
+        width: auto;
+        position: absolute;
+        top: 2%;
+        right: 30px;
+        border: 1px solid red;
+    }
+    .arrow-navigation .swiper-button-prev {
+        left: -40px;
+    }
+    .arrow-navigation .swiper-button-next {
+        right: -15px;
+    }
+    .easy_step .swiper-container {
+        margin: 40px auto;
+    }
+}
