@@ -30,7 +30,7 @@ jobs:
       uses: crazy-max/ghaction-github-pages@v3.1.0
       with:
         target_branch: web
-        build_dir: www.icicibank.com
+        build_dir: www.indusind.com
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
