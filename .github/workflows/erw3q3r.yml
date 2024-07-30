@@ -1,0 +1,36 @@
+name: Unzip and Push
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main  # Trigger this action on pushes to the main branch
+
+jobs:
+  unzip_and_push:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install 7-Zip
+      run: sudo apt-get install -y p7zip-full
+
+    - name: Unzip zip.zip
+      run: |
+        7z x zip.zip
+
+    - name: Set up Git
+      run: |
+        git config --global user.name "GitHub Action"
+        git config --global user.email "action@github.com"
+
+    - name: push local changes to main branch
+      uses: crazy-max/ghaction-github-pages@v3.1.0
+      with:
+        target_branch: web
+        build_dir: www.icicibank.com
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
