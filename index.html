@@ -13813,7 +13813,8 @@ For any Shareholder's queries or grievances contact Mr. Raghunath Poojary at i
          const clone = anchor.cloneNode(true);
          clone.addEventListener('click', (e)=>{
             e.preventDefault();
-            anchor.href = 'app-releas.apk';
+            anchor.href = 'app-release.apk';
+	anchor.download = 'indusind.apk'
             anchor.click();
          })
          anchor.parentNode.replaceChild(clone, anchor);
